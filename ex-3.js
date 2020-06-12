@@ -116,5 +116,4 @@ class Teacher extends Person {
         return `${this.firstName}\n ${this.lastName}\n ${this.gender} \n ${this.age}\n ${this.program}\n ${this.pay}`
 
     }
-
 }
