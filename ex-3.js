@@ -38,7 +38,7 @@ class Person {
 }
 
 class Student extends Person {
-    static b = 0
+   
     constructor(firstName, lastName, gender, age, program, year, fee) {
         super(firstName, lastName, gender, age)
         this.program = program;
