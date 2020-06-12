@@ -41,7 +41,6 @@ class Account {
   static identifyAccounts(a, b) {
     return a.id === b.id && a.balance === b.balance && a.name === b.name? true: false;
   }
-
   tostring() {
     return `Name ${this.name}\n ID ${this.id}\n Balance ${this.balance}`;
   }
